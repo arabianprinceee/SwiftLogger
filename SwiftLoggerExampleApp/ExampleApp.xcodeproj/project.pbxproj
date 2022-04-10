@@ -13,8 +13,8 @@
 		D9ABDFFE2803519200DA990D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ABDFEC2803519000DA990D /* ContentView.swift */; };
 		D9ABDFFF2803519200DA990D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9ABDFED2803519200DA990D /* Assets.xcassets */; };
 		D9ABE0002803519200DA990D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9ABDFED2803519200DA990D /* Assets.xcassets */; };
-		D9ABE0112803541800DA990D /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = D9ABE0102803541800DA990D /* Logger */; };
-		D9ABE0132803542000DA990D /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = D9ABE0122803542000DA990D /* Logger */; };
+		D9ABE0152803800700DA990D /* SwiftLogger in Frameworks */ = {isa = PBXBuildFile; productRef = D9ABE0142803800700DA990D /* SwiftLogger */; };
+		D9ABE0172803801100DA990D /* SwiftLogger in Frameworks */ = {isa = PBXBuildFile; productRef = D9ABE0162803801100DA990D /* SwiftLogger */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9ABE0112803541800DA990D /* Logger in Frameworks */,
+				D9ABE0172803801100DA990D /* SwiftLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9ABE0132803542000DA990D /* Logger in Frameworks */,
+				D9ABE0152803800700DA990D /* SwiftLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 			);
 			name = "ExampleApp (iOS)";
 			packageProductDependencies = (
-				D9ABE0102803541800DA990D /* Logger */,
+				D9ABE0162803801100DA990D /* SwiftLogger */,
 			);
 			productName = "SwiftLoggerExampleApp (iOS)";
 			productReference = D9ABDFF22803519200DA990D /* ExampleApp.app */;
@@ -137,7 +137,7 @@
 			);
 			name = "ExampleApp (macOS)";
 			packageProductDependencies = (
-				D9ABE0122803542000DA990D /* Logger */,
+				D9ABE0142803800700DA990D /* SwiftLogger */,
 			);
 			productName = "SwiftLoggerExampleApp (macOS)";
 			productReference = D9ABDFF82803519200DA990D /* ExampleApp.app */;
@@ -480,13 +480,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D9ABE0102803541800DA990D /* Logger */ = {
+		D9ABE0142803800700DA990D /* SwiftLogger */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Logger;
+			productName = SwiftLogger;
 		};
-		D9ABE0122803542000DA990D /* Logger */ = {
+		D9ABE0162803801100DA990D /* SwiftLogger */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Logger;
+			productName = SwiftLogger;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

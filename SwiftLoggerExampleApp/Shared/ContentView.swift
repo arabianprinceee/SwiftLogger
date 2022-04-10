@@ -1,5 +1,5 @@
 import SwiftUI
-import Logger
+import SwiftLogger
 
 struct ContentView: View {
 
