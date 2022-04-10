@@ -47,6 +47,9 @@ Text("Hello, world!")
         customLogger.log(.information, "This is custom logger!")
     }
 ```
+## Author
+
+Ben Mustafa Anas, anas.mustafa2301@gmail.com
 
 ## License
 
