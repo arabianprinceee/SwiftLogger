@@ -25,7 +25,7 @@ import SwiftLogger
 ```
 And that's it!
 
-#### Usage:
+#### In-app usage:
 
 Create an instance of Logger:
 
@@ -47,4 +47,8 @@ Text("Hello, world!")
         customLogger.log(.information, "This is custom logger!")
     }
 ```
+
+## License
+
+SwiftLogger is available under the MIT license. See the LICENSE file for more info.
 
