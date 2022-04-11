@@ -14,7 +14,7 @@ Add dependency to your ```Package.swift``` file:
 
 Then add SwiftLogger to your target's dependencies:
 ```swift
-.target(name: "some_name", dependencies: ["SwiftLogger"]),
+.target(name: "SwiftLogger", dependencies: ["SwiftLogger"]),
 ```
 
 #### Import package:
