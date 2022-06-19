@@ -50,7 +50,9 @@ Text("Hello, world!")
 ## Author
 
 Ben Mustafa Anas
+
 📨 - anas.mustafa2301@gmail.com
+
 👨🏽‍💻 - https://www.linkedin.com/in/anas-ben-mustafa-a29a5716b/
 
 ## License
